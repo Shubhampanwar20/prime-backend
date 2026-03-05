@@ -1,18 +1,40 @@
-Task Management Backend API
-Node.js + Express + PostgreSQL + JWT
+# Task Management Backend API
 
-Setup:
+A scalable RESTful backend API built with **Node.js, Express, PostgreSQL, and JWT Authentication**.  
+This project demonstrates secure authentication, role-based access control, and CRUD operations for managing tasks.
 
-1. git clone repo
-2. npm install
-3. create .env
-4. npm start
+---
 
-APIs:
+## Features
 
-POST /api/v1/auth/register
-POST /api/v1/auth/login
-GET /api/v1/tasks
-POST /api/v1/tasks
-PUT /api/v1/tasks/:id
-DELETE /api/v1/tasks/:id
+- User Registration
+- User Login with JWT Authentication
+- Role-Based Access Control (User / Admin)
+- Task CRUD APIs
+- PostgreSQL Database Integration
+- Input Validation & Error Handling
+- Secure Password Hashing using bcrypt
+- API Testing with Postman
+- Clean and Scalable Project Structure
+
+---
+
+## Tech Stack
+
+Backend:
+- Node.js
+- Express.js
+
+Database:
+- PostgreSQL
+
+Authentication:
+- JWT (JSON Web Token)
+- bcrypt password hashing
+
+API Testing:
+- Postman
+
+---
+
+## Project Structure
