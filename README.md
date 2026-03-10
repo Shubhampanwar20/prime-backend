@@ -1,68 +1,72 @@
-# Task Management Full Stack Application
+# 📌 Task Management Full Stack Application
 
 A full-stack **Task Management Web Application** built with **Node.js, Express, PostgreSQL, JWT Authentication, and React (Vite)**.
+
 This project demonstrates secure authentication, protected REST APIs, and CRUD operations for managing tasks.
 
-The application allows users to register, log in securely, and manage their personal tasks through a modern dashboard interface.
+Users can:
+
+- Register
+- Login securely
+- Create tasks
+- View tasks
+- Update tasks
+- Delete tasks
+
+All tasks are displayed in a modern **React dashboard interface**.
 
 ---
 
-# Tech Stack
+# 🚀 Tech Stack
 
 ## Backend
-
-* Node.js
-* Express.js
-* PostgreSQL
-* JWT Authentication
-* REST API
+- Node.js
+- Express.js
+- PostgreSQL
+- JWT Authentication
+- REST API
 
 ## Frontend
-
-* React
-* Vite
-* Axios
-* CSS
+- React
+- Vite
+- Axios
+- CSS
 
 ## Tools
-
-* Postman (API Testing)
-* Git & GitHub
-* VS Code
-
----
-
-# Features
-
-### Authentication
-
-* User Registration
-* Secure Login using JWT
-* Password encryption
-* Protected API routes
-
-### Task Management
-
-* Create Task
-* View Tasks
-* Update Task
-* Delete Task
-* Task status tracking (Completed / Pending)
-
-### Dashboard
-
-* Displays user tasks
-* Shows task title and description
-* Task status indicator
+- Postman (API Testing)
+- Git & GitHub
+- VS Code
 
 ---
 
-# Project Structure
+# ✨ Features
+
+## 🔐 Authentication
+- User Registration
+- Secure Login using JWT
+- Password encryption
+- Protected API routes
+
+## 📋 Task Management
+- Create Task
+- View Tasks
+- Update Task
+- Delete Task
+- Task status tracking (Completed / Pending)
+
+## 📊 Dashboard
+- Displays user tasks
+- Shows task title and description
+- Task status indicator
+
+---
+
+# 📁 Project Structure
 
 ```
 prime-backend
 │
-├── frontend                # React Frontend
+├── frontend
 │   ├── src
 │   │   ├── pages
 │   │   │   ├── Login.jsx
@@ -76,7 +80,7 @@ prime-backend
 │   ├── index.html
 │   └── vite.config.js
 │
-├── src                     # Backend source code
+├── src
 │   ├── controllers
 │   │   ├── authController.js
 │   │   └── taskController.js
@@ -91,7 +95,12 @@ prime-backend
 │   ├── config
 │   │   └── db.js
 │
-├── server.js               # Express server entry point
+├── screenshots
+│   ├── login.png
+│   ├── Register.png
+│   └── Dashboard.png
+│
+├── server.js
 ├── package.json
 ├── package-lock.json
 ├── .gitignore
@@ -100,22 +109,22 @@ prime-backend
 
 ---
 
-# Installation & Setup
+# ⚙️ Installation & Setup
 
-## 1. Clone the Repository
+## 1️⃣ Clone the Repository
 
-```
+```bash
 git clone https://github.com/Shubhampanwar20/prime-backend.git
 cd prime-backend
 ```
 
 ---
 
-# Backend Setup
+# 🔧 Backend Setup
 
 Install dependencies:
 
-```
+```bash
 npm install
 ```
 
@@ -129,11 +138,11 @@ JWT_SECRET=your_secret_key
 
 Start backend server:
 
-```
+```bash
 npm run dev
 ```
 
-Server will run at:
+Server runs at:
 
 ```
 http://localhost:5050
@@ -141,23 +150,23 @@ http://localhost:5050
 
 ---
 
-# Frontend Setup
+# 💻 Frontend Setup
 
 Go to frontend folder:
 
-```
+```bash
 cd frontend
 ```
 
 Install dependencies:
 
-```
+```bash
 npm install
 ```
 
 Run frontend:
 
-```
+```bash
 npm run dev
 ```
 
@@ -169,7 +178,7 @@ http://localhost:5173
 
 ---
 
-# API Endpoints
+# 🔗 API Endpoints
 
 ## Authentication
 
@@ -215,7 +224,7 @@ DELETE /api/v1/tasks/:id
 
 ---
 
-# API Testing
+# 🧪 API Testing
 
 All APIs were tested using **Postman**.
 
@@ -228,50 +237,38 @@ Authorization: Bearer <JWT_TOKEN>
 
 ---
 
-# Screenshots
-
-Add screenshots of:
-
-# Screenshots
+# 📸 Screenshots
 
 ## Login Page
 ![Login](screenshots/login.png)
 
 ## Register Page
-![Register](screenshots/register.png)
+![Register](screenshots/Register.png)
 
 ## Dashboard
-![Dashboard](screenshots/dashboard.png)
-Example:
-
-```
-screenshots/
-login.png
-Dashboard.png
-tasks.png
-```
+![Dashboard](screenshots/Dashboard.png)
 
 ---
 
-# Future Improvements
+# 🔮 Future Improvements
 
-* Task categories
-* Admin dashboard
-* Task deadlines
-* Pagination
-* Deployment (Render / Vercel)
+- Task categories
+- Admin dashboard
+- Task deadlines
+- Pagination
+- Deployment (Render / Vercel)
 
 ---
 
-# Author
+# 👨‍💻 Author
 
 **Shubham Panwar**
 
-GitHub
+GitHub  
 https://github.com/Shubhampanwar20
 
 ---
 
-# License
+# 📄 License
 
 This project is for educational and learning purposes.
