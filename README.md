@@ -240,7 +240,7 @@ Authorization: Bearer <JWT_TOKEN>
 # 📸 Screenshots
 
 ## Login Page
-![Login](screenshots/login.png)
+![Login](screenshots/Login.png)
 
 ## Register Page
 ![Register](screenshots/Register.png)
