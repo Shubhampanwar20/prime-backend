@@ -247,7 +247,7 @@ Example:
 ```
 screenshots/
 login.png
-dashboard.png
+Dashboard.png
 tasks.png
 ```
 
